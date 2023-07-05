@@ -24,7 +24,7 @@ h1 {
     font-size: 25vh;
     letter-spacing: 0.03em;
     color: #ffffff;
-    background: url("tree.jpg");
+    background: url("images/bg-file.jpg");
     background-size: auto 200%;
     -webkit-background-clip: text;
     background-clip: text;
