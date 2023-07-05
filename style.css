@@ -1,13 +1,23 @@
-banner {
-    background: radial-gradient(ellipse at center, #022227 50%, #000000 100%);
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto Mono', monospace;}
+
+
+.banner {
+    background: radial-gradient(ellipse at center, #a0a7b4 30%, #000000 100%);
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     display: grid;
     place-items: center;
+    text-align: center;
 }
-
 @keyframes shine {
     from {
         background-position: center 0;
@@ -17,10 +27,7 @@ banner {
         background-position: center 200%;
     }
 }
-
 h1 {
-    margin: 0;
-    font-family: "Montserrat", sens serif;
     font-size: 25vh;
     letter-spacing: 0.03em;
     color: #ffffff;
@@ -30,4 +37,9 @@ h1 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 8s linear infinite;
+}
+.content p{font-size: 18px;
+color:#212121;
+line-height: 1.6em;
+text-decoration: overline #212121 double;
 }
