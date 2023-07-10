@@ -82,7 +82,7 @@ text-decoration: overline #212121 double;
   .flip-card-front {
     background-color: #fff;
     color: black;
-
+    border-radius: 50%;
   }
   
   .flip-card-back {
@@ -90,7 +90,7 @@ text-decoration: overline #212121 double;
     color: #0f172a;
     transform: rotateY(180deg);
     border-radius: 50%;
-    padding: 70px;
+    padding: 35% 0;
   }
   /* projects */
   .projects{
