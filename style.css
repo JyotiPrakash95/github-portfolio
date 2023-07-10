@@ -5,9 +5,10 @@
 *{margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Roboto Mono', monospace;}
+font-family: 'Roboto Mono', monospace;
+line-height: 1.5em;}
 
-
+html{background-color: #0f172a;}
 .banner {
     background: radial-gradient(ellipse at center, #a0a7b4 30%, #000000 100%);
     position: relative;
@@ -51,6 +52,7 @@ text-decoration: overline #212121 double;
     perspective: 1000px;
     margin: 0 auto;
     margin-top: -80px;
+    border-radius: 50%;
   }
   
   .flip-card-inner {
@@ -61,6 +63,8 @@ text-decoration: overline #212121 double;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 50%;
+
   }
   
   .flip-card:hover .flip-card-inner {
@@ -76,13 +80,16 @@ text-decoration: overline #212121 double;
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-color: #fff;
     color: black;
+
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: #ffffff;
+    color: #0f172a;
     transform: rotateY(180deg);
+    border-radius: 50%;
+    padding: 70px;
   }
   
