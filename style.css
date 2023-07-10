@@ -92,4 +92,10 @@ text-decoration: overline #212121 double;
     border-radius: 50%;
     padding: 70px;
   }
+  /* projects */
+  .projects{
+    padding: 80px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   
