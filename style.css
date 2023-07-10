@@ -45,10 +45,12 @@ text-decoration: overline #212121 double;
 }
 /* flip card */
 .flip-card {
-    background-color: transparent;
+    background-color: green;
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin: 0 auto;
+    margin-top: -80px;
   }
   
   .flip-card-inner {
