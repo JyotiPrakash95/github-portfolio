@@ -12,7 +12,7 @@ html{background-color: #0f172a;}
 .banner {
     background: radial-gradient(ellipse at center, #a0a7b4 30%, #000000 100%);
     position: relative;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     margin: 0;
     display: grid;
@@ -29,7 +29,7 @@ html{background-color: #0f172a;}
     }
 }
 h1 {
-    font-size: 25vh;
+    font-size: 150px;
     letter-spacing: 0.03em;
     color: #ffffff;
     background: url("images/bg-file.jpg");
@@ -98,4 +98,17 @@ text-decoration: overline #212121 double;
     max-width: 1280px;
     margin: 0 auto;
   }
-  
+
+  /* Media tablet Query */
+  @media (min-width: 768px) and (max-width: 1024px){
+    h1 {
+      font-size: 70px;
+   
+  }
+}
+  /* Media Mobile Query */
+  @media(max-width: 1024px){
+    .flip-card, .flip-card-front img{
+      width: 200px;
+      height: 200px;
+    }}
